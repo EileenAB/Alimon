@@ -1,0 +1,433 @@
+
+.tittle-principal{ 
+    font-family: "LilitaOne-Regular", sans-serif;
+    font-size: 4rem;
+    border-radius: 3%;
+    color: #4b9189;
+    
+}
+
+
+.text{ 
+    font-family: "VarelaRound-Regular", sans-serif;
+    color: #1e1e1e;
+    font-size: 2rem;
+    line-height: 1em;    
+}
+
+.img-fondo {
+    position: relative; /* Asegura que el contenedor tenga una posición relativa */
+    min-height: 10vh;
+}
+
+.img-fondo img {
+    max-width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+    height: auto;
+}
+
+.img-background{
+    background-position: center;
+    background-size: contain;
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: space;
+}
+.img-background-news{
+    background-position: center;
+    background-size: contain;
+    min-height: 100vh;
+    width: 100%;
+    
+}
+
+.bbc-card{
+    background: var(--cl__white);
+    animation: zoomIn .2s linear;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    overflow: hidden;
+    transition: box-shadow .2s linear;
+    transform: translateZ(0);
+    position: relative;
+}
+
+.posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding-top: 10px;
+}
+.posts-text{
+    padding: 1.25em 1.25em 0 1.25em;
+    position: relative;
+    line-height: 2em;
+    margin-bottom: 1em;
+    text-align: justify;
+}
+.bbc-card .poster-image {
+    background-color: var(--cl__placeholder-color);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 17vw;
+    
+}
+
+.nutri-box{
+    font-family: "VarelaRound-Regular", sans-serif;
+    color: #7A3126;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 25px 0 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.recipe-text{
+    font-family: "VarelaRound-Regular", sans-serif;
+    color: #002877;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 10px 25px 0 25px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #bccfe3;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.img_tr{
+    padding: 0 0 20px 0;
+    width: 50%;
+}
+
+.button-color{
+    color:#1e1e1e;
+}
+
+.btn-color-close{
+    background-color: #bccfe3;
+}
+
+.modal-color{
+    background-color:#E4EAFF;
+    
+}
+
+.news-titulo{
+    font-family: "LilitaOne-Regular", sans-serif;
+    font-size: 4rem;
+    border-radius: 3%;
+    line-height: 1em;
+    color: #414343;
+    text-align: center;
+}
+
+.news-text{
+    font-family: "VarelaRound-Regular", sans-serif;
+    color: #1e1e1e;
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 30px;
+}
+
+.color-text{
+    background-color: #FEF7CD;
+    border-radius: 30px;
+    border: 4px solid rgb(255, 255, 255);
+}
+
+.ulti-text{
+    font-family: "VarelaRound-Regular", sans-serif;
+    color: #1e1e1e;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px;
+}
+
+.news-box{
+    padding: 50px 25px 0 25px;
+}
+
+.tittle-nutri{
+    font-family: "LilitaOne-Regular", sans-serif;
+    font-size: 2.5rem;
+    color: #FF8C75;
+}
+
+.tittle-en{
+    font-family: "LilitaOne-Regular", sans-serif;
+    font-size: 2.5rem;
+    color:  #B77964;
+}
+
+.box-nutri{
+    background-color: #FFDCC7;
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px 25px 10px 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+}
+
+.borde-img{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 50%;
+}
+
+.borde-img1{
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 80%;
+}
+
+@media only screen and (max-width: 1199px) 
+{
+    .tittle-principal{
+        font-family: "LilitaOne-Regular", sans-serif;
+        padding: 0 0 0 0;
+        color: #4b9189;
+    }
+    .text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        text-align: justify;
+        color: #1e1e1e;
+    }
+    
+    .modal-titulo{
+        font-family: "LilitaOne-Regular", sans-serif;
+        font-size: 2.5rem;
+        border-radius: 3%;
+        color: #414343;
+    }
+    
+    .modal-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        line-height: 1em; 
+    }
+
+    .nutri-box{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #7A3126;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px 10px 0 10px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .img_tr{
+        padding: 0 0 20px 0;
+        width: 90%;
+    }
+
+    .news-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 25px;
+    }
+    .news-titulo{
+        font-family: "LilitaOne-Regular", sans-serif;
+        font-size: 2.5rem;
+        border-radius: 3%;
+        line-height: 1em;
+        color: #414343;
+        text-align: center;
+    }
+
+    .color-text{
+        background-color: #FEF7CD;
+        border-radius: 30px;
+    }
+    
+    .ulti-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .borde-img{
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .news-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 25px;
+    }
+    .news-titulo{
+        font-family: "LilitaOne-Regular", sans-serif;
+        font-size: 2.5rem;
+        border-radius: 3%;
+        line-height: 1em;
+        color: #414343;
+        text-align: center;
+    }
+
+    .color-text{
+        background-color: #FEF7CD;
+        border-radius: 30px;
+    }
+    
+    .ulti-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .tittle-principal{
+        font-family: "LilitaOne-Regular", sans-serif;
+        padding: 0 0 0 0;
+        color: #4b9189;
+        font-size: 3rem;
+    }
+    .text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        text-align: justify;
+        font-size: 1.3rem;
+        color: #1e1e1e;
+    }
+
+    .recipemobile{
+        margin-top: 1em;
+        border-radius: 20px 30px 90px 60px;
+    }
+    .img-fondo {
+        position: relative;
+        min-height: 10vh; /* Ajusta la altura mínima para dispositivos móviles */
+    }
+
+    .recipe-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #002877;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px 25px 0 25px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .nutri-box{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #7A3126;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px 5px 0 5px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+     .img_tr{
+        padding: 0 0 20px 0;
+        width: 90%;
+    }
+
+    .borde-img{
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 100%;
+    }
+
+    .borde-img1{
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1366px){
+    .tittle-principal{
+        font-family: "LilitaOne-Regular", sans-serif;
+        padding: 0 0 0 0;
+        color: #4b9189;
+        font-size: 2.5rem;
+    }
+    .text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        text-align: justify;
+        font-size: 1.3rem;
+        color: #1e1e1e;
+    }
+    
+    .recipe-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #002877;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px 25px 0 25px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .nutri-box{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #7A3126;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 10px 5px 0 5px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .img_tr{
+        padding: 0 0 20px 0;
+        width: 80%;
+    }
+    .news-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 25pxx;
+    }
+    .news-titulo{
+        font-family: "LilitaOne-Regular", sans-serif;
+        font-size: 2.5rem;
+        border-radius: 3%;
+        line-height: 1em;
+        color: #414343;
+        text-align: center;
+    }
+
+    .color-text{
+        background-color: #FEF7CD;
+        border-radius: 30px;
+    }
+    
+    .ulti-text{
+        font-family: "VarelaRound-Regular", sans-serif;
+        color: #1e1e1e;
+        font-size: 1.3rem;
+        text-align: center;
+        padding: 25px;
+    }
+
+    .borde-img{
+        border: 4px solid rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,50 @@
+.limon {
+    padding: 4% 0 5% 15%;
+    width: 80%;
+    height: auto;
+}
+.cebolla {
+    padding: 0 0 0 4%;
+    width: 50%;
+    height: auto;
+}
+.lab-col {
+    background: #f7eebf;
+    border-radius: 40px 40px 40px 40px;
+    filter: drop-shadow(5px 10px 13.3px rgba(0, 0, 0, 0.42));
+}
+.texto-label {
+    font-family: "VarelaRound-Regular", sans-serif;
+    font-size: 2rem;
+    color: #4a5600;
+    /* padding: 2% 0 0 30%; */
+}
+
+.btn-env-pre {
+    padding: 3% 0 0 0;
+    width: 30%;
+    height: auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .texto-label-mob {
+        font-family: "VarelaRound-Regular", sans-serif;
+        font-size: 1.3rem;
+        color: #4a5600;
+        /* padding: 2% 0 0 30%; */
+    }
+    .btn-env-pre-mob {
+        padding: 3% 0 0 0;
+        width: 50%;
+        height: auto;
+    }
+    .lab-col-mob {
+        padding: 4em;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .cebolla-mob {
+        /* padding: 0% 0 0 0%; */
+        width: 95%;
+        height: auto;
+    }
+}

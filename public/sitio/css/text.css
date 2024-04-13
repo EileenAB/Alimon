@@ -1,0 +1,196 @@
+.tit {
+    font-family: "LilitaOne-Regular", sans-serif;
+    padding: 0 0 0 10%;
+
+    color: white;
+    font-size: 4rem;
+}
+.icon-shadow {
+    width: 50%;
+    height: auto;
+}
+.inicio {
+    font-family: "VarelaRound-Regular", sans-serif;
+    font-size: 2rem;
+    color: #434343;
+    padding: 2% 0 0 30%;
+}
+
+.title-1 {
+    font-family: "LilitaOne-Regular", sans-serif;
+    font-size: 3rem;
+    color: #ff553e;
+}
+.title {
+    font-family: "LilitaOne-Regular", sans-serif;
+    font-size: 3rem;
+    color: #ff553e;
+}
+
+.text {
+    font-family: "VarelaRound-Regular", sans-serif;
+    color: rgb(166, 86, 16);
+    font-size: 2rem;
+}
+
+.section-qs {
+    padding: 100px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .tit-mob {
+        font-family: "LilitaOne-Regular", sans-serif;
+        padding: 0 0 0 0;
+        color: white;
+        font-size: 2.5rem;
+    }
+    .inicio-mov {
+        font-family: "LilitaOne-Regular", sans-serif;
+        padding: 0 0 0 0;
+        color: #434343;
+        font-size: 2.5rem;
+    }
+    .inicio-mob {
+        font-family: "VarelaRound-Regular", sans-serif;
+        text-align: justify;
+        font-size: 1.3rem;
+        color: #564500;
+        padding: 10px;
+    }
+    .texto-mob {
+        font-size: 1.3rem;
+    }
+
+    .cj-mobile {
+        border-radius: 40px 40px 40px 40px;
+    }
+
+    .section-qs-mb {
+        padding: 40px;
+    }
+
+    .mar-pro {
+        position: relative;
+        top: -12px;
+    }
+    .title-movb {
+        font-family: "LilitaOne-Regular", sans-serif;
+        font-size: 1.6rem;
+        color: #ff553e;
+    }
+    .title-1-mob {
+        font-family: "LilitaOne-Regular", sans-serif;
+        font-size: 2rem;
+        color: #ff553e;
+    }
+}
+
+.cajita {
+    background-color: wheat;
+    border-radius: 40px 150px 150px 40px;
+    /* box-shadow: 0px 2px 7.1px 5px rgba(0, 0, 0, 0.25) inset; */
+}
+.cajita :hover {
+    background-color: wheat;
+    border-radius: 40px 150px 150px 40px;
+    /* box-shadow: 0px 2px 7.1px 5px rgba(0, 0, 0, 0.25) inset; */
+}
+.cajita2 {
+    background-color: #f5deb3;
+    border-radius: 150px 40px 40px 150px;
+    /* box-shadow: 0px 2px 7.1px 5px rgba(0, 0, 0, 0.25) inset; */
+}
+
+.cajs {
+    padding: 45px;
+}
+
+.color-caj {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 90px;
+    transition: background-color 0.7s linear, border-radius 0.2s linear;
+}
+
+.color-caj:hover {
+    background-color: rgba(200, 140, 0, 0.923);
+    border-radius: 150px;
+}
+
+.cards {
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 40px;
+    transition: background-color 0.5s linear, border-radius 0.2s linear;
+}
+.cards:hover {
+    background-color: rgba(0, 0, 0, 0.366);
+    transition: background-color 0.5s linear, border-radius 0.2s linear;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile {
+        margin-top: 1em;
+        border-radius: 40px 40px 40px 40px;
+    }
+    .caja {
+        padding: 25px;
+    }
+
+    .color-caj-mob {
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        transition: background-color 0.7s linear;
+    }
+
+    .color-caj-mob:hover {
+        background-color: rgba(200, 140, 0, 0.923);
+
+        transition: border-radius 0.2s linear;
+        border-radius: 0px;
+    }
+
+    .cards-mobile {
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        transition: background-color 0.7s linear;
+    }
+    .cards-mobile:hover {
+        background-color: rgba(0, 0, 0, 0.366);
+        transition: background-color 0.7s linear;
+    }
+
+    .img-mob {
+        padding: 0 0 0 10%;
+        width: 420px;
+        height: auto;
+    }
+
+    .img-dsc {
+        display: none;
+    }
+
+    .icon-shadow-mob {
+        width: 90%;
+        height: auto;
+    }
+}
+
+/* TAMAÑO LAPTOPS */
+@media only screen and (max-width: 1366px) {
+    .tit-lg {
+        font-family: "LilitaOne-Regular", sans-serif;
+        padding: 0 0 0 0;
+        color: white;
+        font-size: 2.5rem;
+    }
+    .inicio-lg {
+        font-family: "VarelaRound-Regular", sans-serif;
+        text-align: justify;
+        font-size: 1.3rem;
+        color: #434343;
+        /* padding: 0 0 0 0%; */
+    }
+    .text-lg {
+        font-size: 1.3rem;
+    }
+}

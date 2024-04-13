@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "LilitaOne-Regular";
+    src: url(../FONT/Lilita_One/LilitaOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "VarelaRound-Regular";
+    src: url(../FONT/Varela_Rou/VarelaRound-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "VarelaRound-Regular", sans-serif;
+}
+
+.nav-link {
+    font-family: "LilitaOne-Regular", sans-serif;
+}
+
+.navbar.bg-light {
+    background-color: transparent !important; /* Sobrescribiendo cualquier fondo predefinido */
+}
+
+@media only screen and (max-width: 600px) {
+    .saul {
+        display: none; /* Oculta el componente en pantallas pequeñas */
+    }
+}
